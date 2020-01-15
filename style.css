@@ -1,0 +1,140 @@
+/* Suas estilizações */
+
+.container {
+  width: auto;
+}
+
+.content-wrap {
+  width: auto;
+  margin: auto;
+  padding-top: 1px;
+  color: #FFFFFF;
+  background-color: #0A1550;
+}
+
+.formulario {
+  width: 45em;
+  height: 30em;
+  margin: 50px auto auto auto;
+  border: 1px solid white;
+}
+
+.caixa-entrada-dados {
+  margin: 10px 0px 10px 20px;
+  padding: 30px 30px 60px 200px;
+}
+
+.input-dados {
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #DCDCDC;
+}
+
+.btn {
+  float: right;
+  margin-top: 1px;
+  border: 1px solid #DCDCDC;
+  background: #A0A6A8F;
+}
+
+.botao-logar {
+  float: right;
+  margin: 10px 170px 90px 0px;
+  padding-right: 35px;
+  border-radius: 4px;
+}
+
+.botao-cadastrar {
+  margin: 10px 0px 0px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.home-w {
+  display: block;
+  padding: 90px;
+  margin: 30px;
+
+}
+
+.selecao {
+  margin: 10px 10px 10px 10px;
+  border-radius: 4px;
+  border: 1px solid #DCDCDC;
+
+}
+
+.cadastro-p1 {
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  width: 400px;
+  padding: 0px 0px 0px 90px;
+  margin-left: 120px;
+  background: #D8D8D8;
+}
+
+.caixa-texto {
+  margin-left: 15px;
+  margin-top: 100px;
+  width: 95%;
+  height: 50vh;
+  border-radius: 4px;
+  border: 1px solid #DCDCDC;
+  background: #D8D8D8;
+}
+.menu {
+  background-color: #0A1550;
+}
+
+.botao-sair {
+  float: right;
+  padding-top: 10px 40px 10px 10px;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  height : 70px;
+  border: 2px solid white;
+}
+
+ul li {
+  border: 2px solid white;
+  float: left;
+  padding: 1px 1px 1px 1px;
+  margin: 15px 10px 10px 130px;
+}
+li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  text-decoration: none;
+  background-color: #0A1550;
+  color: #FFF;
+  border-radius: 12px;
+}
+
+ul a: hover {
+  color: #894a1f;
+}
+
+
+#title {
+  margin: 12px;
+}
+
+
+ul a: hover {
+  color: #894a1f;
+}
+
+ul #atual a {
+  background: #D8D8D8;
+
+}
+
+#title {
+  margin: 12px;
+}
+
+
