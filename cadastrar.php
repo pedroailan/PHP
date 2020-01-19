@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-  
+
   session_start();
 
   if(!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM'){
@@ -42,11 +42,11 @@
       </li>
     </ul>
   </div>
-  <form class="formulario" method="post" action="registros.php">
+  <form class="formulario" method="post" action="const_cadastro.php">
       <div class="cadastro-p1" align="left">
         <div class="">
           <span>Tipo</span>
-          <select class="selecao" name="Tipo">
+          <select required class="selecao" name="Tipo">
             <option value="CPU">CPU</option>
             <option value="Monitor">Monitor</option>
             <option value="Teclado">Teclado</option>
@@ -59,12 +59,12 @@
           <br>
           <div>
             <span>Quantidade</span>
-            <input type="number" class="input-dados" name="Quantidade">
+            <input required type="number" class="input-dados" name="Quantidade" value="Quantidade">
           </div>
           <br>
           <div>
             <span>Data</span>
-            <input type="date" class="input-dados" name="Data">
+            <input required type="date" class="input-dados" name="Data" value="Data">
           </div>
           <br>
           <div align="center">
