@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 
 <?php
+
+  include_once("conexao.php");
+  require "listar_controller.php";
   
   session_start();
 
   if(!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM'){
     header('Location: index.php?login=erro2');
   }
+
 ?>
 
-<?php
-  $arquivo = fopen('arquivo.hd', 'r');
-
-  while(!feof($arquivo)) {
-    $registro = fgets($arquivo);
-    $reg[] = $registro;
-}
-  fclose($arquivo)
-?>
 <html>
 
 <head>
@@ -40,7 +35,7 @@
       <li>
         <a href="cadastrar.php">Cadastrar</a>
       </li>
-      <li>
+      <li id="atual">
         <a href="listar.php">Listar Equipamentos</a>
       </li>
       <li>
@@ -51,11 +46,6 @@
       </li>
     </ul>
   </div>
-<? foreach ($reg as $registro) { ?>
-  <?= $registro.'<br />'; ?>
-  <div class="">
-  </div>
-<? } ?>
   <script src="script.js"></script>
 </body>
 

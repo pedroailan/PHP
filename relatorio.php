@@ -36,7 +36,7 @@
       <li>
         <a href="editar.php">Editar Estoque</a>
       </li>
-      <li>
+      <li id="atual">
         <a href="relatorio.php">Gerar Relatório</a>
       </li>
     </ul>

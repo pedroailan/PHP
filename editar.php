@@ -34,7 +34,7 @@
       <li>
         <a href="listar.php">Listar Equipamentos</a>
       </li>
-      <li>
+      <li id="atual">
         <a href="editar.php">Editar Estoque</a>
       </li>
       <li>
